@@ -232,7 +232,7 @@ updateProject() {
     [[ -z $(echo $SHELL|grep zsh) ]] && source /etc/bash_completion.d/v2ray.bash
     
     #安装/更新V2ray主程序
-    bash <(curl -L -s https://install.direct/go.sh)
+    bash <(curl -L -s https://raw.githubusercontent.com/lucasbozhi/multi-v2ray/master/go.sh)
 }
 
 #时间同步
